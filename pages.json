@@ -1,0 +1,447 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "歆丝泉",
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "mine/mine/mine",
+			"style": {
+				"navigationBarTitleText": "歆丝泉",
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "shopcar/shopcar/shopcar",
+			"style": {
+				"navigationBarTitleText": "歆丝泉",
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "classify/classify/classify",
+			"style": {
+				"navigationBarTitleText": "歆丝泉",
+				"app-plus":{"titleNView":false},//去掉顶部导航栏
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+		    "path" : "wx_login/wx_login",
+		    "style" : {
+				"navigationBarTitleText": "壹口两口",
+				"app-plus":{"titleNView":false}//去掉顶部导航栏
+			}
+		}
+    ],
+	"subPackages":[
+		// {
+		// 	"root": "mine",
+		// 	"pages": [
+		// 		{
+		// 			"path" : "mine/mine",
+		// 			"style" : {
+		// 				"app-plus":{"titleNView":false},//去掉顶部导航栏
+		// 				"navigationBarTitleText":"我的"
+		// 			}
+		// 		}
+		// 	] 
+		// },
+		{
+			"root": "vip",
+			"pages": [
+				{
+				    "path" : "vip/vip",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"个人中心"
+				    }
+				}
+			] 
+		},
+		// {
+		// 	"root": "shopcar",
+		// 	"pages": [
+		// 		{
+		// 		    "path" : "shopcar/shopcar",
+		// 		    "style" : {
+		// 		    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+		// 		    	"navigationBarTitleText":"购物车"
+		// 		    }
+		// 		}
+		// 	] 
+		// },
+		// {
+		// 	"root": "classify",
+		// 	"pages": [
+		// 		{
+		// 			"path" : "classify/classify",
+		// 			"style" : {
+		// 				"app-plus":{"titleNView":false},//去掉顶部导航栏
+		// 				"navigationBarTitleText":"修改信息"
+		// 			}
+		// 		}
+		// 	] 
+		// },
+		// {
+		// 	"root": "end-post",
+		// 	"pages": [
+		// 		{
+		// 		    "path" : "end-post/end-post",
+		// 		    "style" : {
+		// 		    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+		// 		    	"navigationBarTitleText":"歆丝泉"
+		// 		    }
+		// 		}
+		// 	] 
+		// },
+		{
+			"root": "creatAlipay",
+			"pages": [
+				{
+				    "path" : "creatAlipay/creatAlipay",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"支付宝信息"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "contactUs",
+			"pages": [
+				{
+				    "path" : "contactUs/contactUs",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "index-search",
+			"pages": [
+				{
+				    "path" : "index-search/index-search",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"搜索"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "earnings",
+			"pages": [
+				{
+				    "path" : "earnings/earnings",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "association",
+			"pages": [
+				{
+				    "path" : "association/association",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "logistics-details",
+			"pages": [
+				{
+				    "path" : "logistics-details/logistics-details",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"交易详情"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "invitation",
+			"pages": [
+				{
+				    "path" : "invitation/invitation",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "account",
+			"pages": [
+				{		
+					"path" : "account/account",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}					
+				}
+			] 
+		},
+		{
+			"root": "login",
+			"pages": [
+				{		
+					"path" : "login/login",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}					
+				}
+			] 
+		},
+		{
+			"root": "addBankCard",
+			"pages": [
+				{
+				    "path" : "addBankCard/addBankCard",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "myCardBag",
+			"pages": [
+				{
+				    "path" : "myCardBag/myCardBag",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"我的卡包"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "myBill",
+			"pages": [
+				{
+				    "path" : "myBill/myBill",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"我的账单"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "coupon",
+			"pages": [
+				{
+				    "path" : "coupon/coupon",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"分享优惠券"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "orderList",
+			"pages": [
+				{
+				    "path" : "orderList/orderList",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"订单列表"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "integral-center",
+			"pages": [
+				{
+				    "path" : "integral-center/integral-center",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"积分中心"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "address",
+			"pages": [
+				{
+				    "path" : "address/address",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"地址详情"
+				    }
+				}
+			] 
+		},
+		
+		{
+			"root": "useredit",
+			"pages": [
+				{
+				    "path" : "useredit/useredit",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"修改信息"
+				    }
+				}
+			] 
+		},
+		{
+			"root": "buy",
+			"pages": [
+				{		
+					"path" : "buy/buy",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}					
+				},
+				{
+					"path" : "buy/have_open_id",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}					
+				}
+			] 
+		},
+		{
+			"root": "settle-accounts",
+			"pages": [
+				{
+				    "path" : "settle-accounts/settle-accounts",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				},
+				{
+				    "path" : "settle-accounts/Point_mall_settlement",
+				    "style" : {
+				    	"app-plus":{"titleNView":false},//去掉顶部导航栏
+				    	"navigationBarTitleText":"歆丝泉"
+				    }
+				}
+			]
+		},
+		
+		{
+			"root": "editAddress",
+			"pages": [
+				{
+					"path" : "editAddress/editAddress",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"收货地址"
+					}
+				},
+				{
+					"path" : "editAddress/modification",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}
+				}
+			]
+		},
+		{
+			"root": "productlist",
+			"pages": [
+				{
+					"path" : "productlist/AllProductilist",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}
+				},
+				{
+					"path" : "productlist/CardTicketCenter",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}
+				},
+				{
+					"path" : "productlist/productlist",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}
+				}
+			]
+		},
+		{
+			"root": "checkOrders",
+			"pages": [
+				{
+					"path" : "blankJump/blankJump",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}
+				},
+				{
+					"path" : "checkOrders/checkOrders",
+					"style" : {
+						"app-plus":{"titleNView":false},//去掉顶部导航栏
+						"navigationBarTitleText":"歆丝泉"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":true
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#329e9a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/images/导航-首页2.png",
+			"selectedIconPath": "static/images/导航-首页1.png",
+			"text": "首页"
+		}, {
+			"pagePath": "classify/classify/classify",
+			"iconPath": "static/images/导航-分类2.png",
+			"selectedIconPath": "static/images/导航-分类1.png",
+			"text": "全部商品"
+		}, {
+			"pagePath": "shopcar/shopcar/shopcar",
+			"iconPath": "static/images/导航-购物车2.png",
+			"selectedIconPath": "static/images/导航-购物车1.png",
+			"text":"购物车"
+		}, {
+			"pagePath": "mine/mine/mine",
+			"iconPath": "static/images/导航-个人中心2.png",
+			"selectedIconPath": "static/images/导航-个人中心1.png",
+			"text": "我的"
+		}]
+	}
+}
